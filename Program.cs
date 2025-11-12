@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hei, mikä on nimesi?");
+        string? nimi = Console.ReadLine();
+        Console.WriteLine($"Hei {nimi}, tervetuloa Dockerin maailmaan!");
     }
 }
